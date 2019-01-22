@@ -1,0 +1,41 @@
+.web-js-application-___style__root___2vynn {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 16px;
+  min-height: 80vh; }
+  .web-js-application-___style__root___2vynn > * {
+    margin-top: 20px; }
+
+.web-js-application-___style__button___1afFP {
+  font-size: 3rem;
+  padding: 8px;
+  background-color: #2aa9db;
+  color: white;
+  border: 0px solid;
+  border-radius: 3px;
+  font-size: 1rem;
+  width: 100%; }
+
+.web-js-application-___style__next___1ZpOG {
+  display: flex;
+  justify-content: space-around; }
+
+@media only screen and (max-width: 450px) {
+  .web-js-application-___style__root___2vynn {
+    padding: 0 16px; }
+  .web-js-application-___style__text___34FqS {
+    font-size: 3rem; } }
+
+@media only screen and (min-width: 450px) {
+  .web-js-application-___style__root___2vynn {
+    max-width: 30vw; }
+  .web-js-application-___style__text___34FqS {
+    font-size: 4rem; } }
+
+* {
+  padding: 0;
+  margin: 0; }
+
