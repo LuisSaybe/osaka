@@ -1,0 +1,52 @@
+@import '~sass/media';
+
+.root {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 16px;
+  min-height: 80vh;
+
+  > * {
+    margin-top: 20px;
+  }
+}
+
+
+.button {
+  font-size: 3rem;
+  padding: 8px;
+  background-color: #2aa9db;
+  color: white;
+  border: 0px solid;
+  border-radius: 3px;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.next {
+  display: flex;
+  justify-content: space-around;
+}
+
+@include phone() {
+  .root {
+    padding: 0 16px;
+  }
+
+  .text {
+    font-size: 3rem;
+  }
+}
+
+@include not_phone() {
+  .root {
+    max-width: 30vw;
+  }
+
+  .text {
+    font-size: 4rem;
+  }
+}
