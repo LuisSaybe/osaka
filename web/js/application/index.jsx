@@ -64,7 +64,7 @@ export class Application extends React.Component {
         <button styleName='button' onClick={this.onPrevious}>
           <FontAwesomeIcon icon={faArrowLeft} />
         </button>
-        <button styleName='button' onClick={this.onPrevious}>
+        <button styleName='button' onClick={this.onNext}>
           <FontAwesomeIcon icon={faArrowRight} />
         </button>
         <button styleName='button next' onClick={this.onRandom}>
